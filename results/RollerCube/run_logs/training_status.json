@@ -1,0 +1,47 @@
+{
+    "RollerCube": {
+        "checkpoints": [
+            {
+                "steps": 201447,
+                "file_path": "results\\RollerCube\\RollerCube\\RollerCube-201447.onnx",
+                "reward": 0.7692307692307693,
+                "creation_time": 1739928511.1446187,
+                "auxillary_file_paths": [
+                    "results\\RollerCube\\RollerCube\\RollerCube-201447.pt"
+                ]
+            },
+            {
+                "steps": 499996,
+                "file_path": "results\\RollerCube\\RollerCube\\RollerCube-499996.onnx",
+                "reward": 0.9375,
+                "creation_time": 1739929606.007328,
+                "auxillary_file_paths": [
+                    "results\\RollerCube\\RollerCube\\RollerCube-499996.pt"
+                ]
+            },
+            {
+                "steps": 500004,
+                "file_path": "results\\RollerCube\\RollerCube\\RollerCube-500004.onnx",
+                "reward": 0.9411764705882353,
+                "creation_time": 1739929606.0631738,
+                "auxillary_file_paths": [
+                    "results\\RollerCube\\RollerCube\\RollerCube-500004.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500004,
+            "file_path": "results\\RollerCube\\RollerCube.onnx",
+            "reward": 0.9411764705882353,
+            "creation_time": 1739929606.0631738,
+            "auxillary_file_paths": [
+                "results\\RollerCube\\RollerCube\\RollerCube-500004.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}
