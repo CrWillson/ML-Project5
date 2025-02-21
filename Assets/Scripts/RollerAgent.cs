@@ -25,8 +25,9 @@ public class RollerAgent : Agent
 
         // Move the target to a new spot
         Target.localPosition = new Vector3(Random.value * 8 - 4,
-                                           0.5f,
+                                           0.7f,
                                            Random.value * 8 - 4);
+        Target.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
 
     public override void CollectObservations(VectorSensor sensor)
